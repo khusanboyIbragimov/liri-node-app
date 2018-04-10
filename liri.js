@@ -44,7 +44,7 @@ function spotifyFunc() {
             return console.log('Error occurred: ' + err);
         }
         var musicInfo = data.tracks.items[0];
-        console.log("Artist: ", musicInfo.artists[0].name, "\nSong's name: ", musicInfo.name,
+        console.log("\nArtist: ", musicInfo.artists[0].name, "\nSong's name: ", musicInfo.name,
             "\nSong's preview link: ", musicInfo.preview_url, "\nAlbum: ", musicInfo.album.name);
     });
 };
@@ -87,7 +87,7 @@ function omdbFunc() {
             }
             console.log("Country: ", dataOmdb.Country, "\nLanguage: ", dataOmdb.Language, 
             "\nPlot: ", dataOmdb.Plot, "\nActors: ", dataOmdb.Actors);
-            console.log(">==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>")
+            console.log("\n>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>==>")
         }
     })
 };
