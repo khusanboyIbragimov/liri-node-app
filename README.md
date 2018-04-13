@@ -17,7 +17,7 @@ In this assignment, I made LIRI. LIRI is like iPhone's SIRI. However, while SIRI
    
    * [Request](https://www.npmjs.com/package/request)
 
-     * You'll use Request to grab data from the [OMDB API](http://www.omdbapi.com).
+     * [OMDB API](http://www.omdbapi.com).
 
    * [DotEnv](https://www.npmjs.com/package/dotenv)
      
